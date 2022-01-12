@@ -96,8 +96,8 @@ body
     transform: translateY(-50%) translateX(-20px);
     white-space: nowrap;
     padding: 4px 6px;
-    background: #fff;
-    color: #333;
+    background: red;
+    color: #fff;
     font-weight: 500;
     font-size: 12px;
     border-radius: 4px;
@@ -116,7 +116,7 @@ body
     position: absolute;
     top: 50%; right: -4px;
     width: 8px; height: 8px;
-    background: #fff;
+    background: red;
     transform: translateY(-50%) rotate(45deg);
 }
 .container .card .content
