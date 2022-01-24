@@ -62,10 +62,7 @@ ul, li, a
 @media (max-width:645px)
 {
     .header.active{
-        background: rgba(0, 0, 0,0.1);
-        height: 100vh;
-        align-items: flex-start;
-       
+        align-items: flex-start;  
     } 
     .header.active a{
         transform: translateY(8px);
@@ -83,6 +80,12 @@ ul, li, a
         overflow: hidden;
         margin: 5px 10px 0 7px;
         background: transparent;
+    }
+    .toggle.active ~ .header.active
+    {
+        height: 100vh;
+        background: #333;
+        z-index: 10000;
     }
     .toggle span
     {
